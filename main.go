@@ -20,5 +20,5 @@ func handleShowSum(ctx *gin.Context){
 }
 
 func Sum(a, b int) int {
-	return a + b
+	return a - b
 }
